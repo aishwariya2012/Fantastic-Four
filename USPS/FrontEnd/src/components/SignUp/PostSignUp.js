@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 
 import image from '../SignUp/Profile.png'
@@ -28,7 +29,7 @@ import Header from '../Headers/Header';
 
 
     render(){
-       <div>
+       
         return(
 <div class="body1">
 <Header></Header>
