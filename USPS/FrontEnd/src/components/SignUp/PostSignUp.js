@@ -30,14 +30,23 @@ import './App.css';
     render(){
        
         return(
-
-           
-            <div>
-                
-            </div>    
-                   
-              
-                      
+<div>
+           <div class="text" style={{"top-margin":"200px", "color":"black","background-color":"rgb(20, 119, 141)","font-size": "14px","padding": "4px","max-width": "250px","top":"20","text-align": "center","border": "2px solid"}} >
+            <p><strong>Zipcode: 95113</strong></p>
+            <p><strong>No of letters:50</strong></p>
+<button style={{"border": "2px solid"}}>USPS driver</button>; 
+&nbsp;
+<button style={{"border": "2px solid"}}>Fleet Driver</button>             
+</div>
+ <div class="text" style={{"top-margin":"200px", "color":"black","background-color":"rgb(20, 119, 141)","font-size": "14px","padding": "4px","max-width": "250px","top":"20","text-align": "center","border": "2px solid"}} >
+ <p><strong>Zipcode: 95113</strong></p>
+ <p><strong>No of letters:50</strong></p>
+<button style={{"border": "2px solid"}}>USPS driver</button>; 
+&nbsp;
+<button style={{"border": "2px solid"}}>Fleet Driver</button>             
+</div>    
+       
+</div>
         )
     }
 }
