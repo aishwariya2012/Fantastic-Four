@@ -4,6 +4,10 @@
   float: left;
   padding-left: 100px
 }
+
+.col-3{
+  padding-left: 70px
+}
 .x{
   background-color:  white;
 }
