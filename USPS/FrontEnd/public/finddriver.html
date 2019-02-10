@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+    <!-- <video id="gj" controls >
+        <source id="video1" src="C:\Users\Aishwariya\Documents\GitHub\Fantastic-Four\USPS\FrontEnd\public\driver.mp4" type="video/mp4" autoplay>
+        </video> -->
+<video id="myVideo" src="driver.mp4" width="1200" height="600" preload autoplay> </video>
+<script type='text/javascript'>
+    document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+        if(!e) { e = window.event; }
+        alert("One Driver Found!!!!!!");
+    }
+</script>
+</body> 
+</html>

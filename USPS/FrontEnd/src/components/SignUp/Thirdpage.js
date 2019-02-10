@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import image from '../SignUp/Profile.png'
 import './App.css';
 
  export default class PostSignUp extends Component{
@@ -30,25 +29,105 @@ import './App.css';
     render(){
        
         return(
-<div>
-           <div class="text" style={{"top-margin":"200px", "color":"black","background-color":"rgb(20, 119, 141)","font-size": "14px","padding": "4px","max-width": "250px","top":"20","text-align": "center","border": "2px solid"}} >
-            <p><strong>Zipcode: 95113</strong></p>
-            <p><strong>No of letters:50</strong></p>
-<button style={{"border": "2px solid"}}>USPS driver</button>; 
-&nbsp;
-<button style={{"border": "2px solid"}}>Fleet Driver</button>             
-</div>
- <div class="text" style={{"top-margin":"200px", "color":"black","background-color":"rgb(20, 119, 141)","font-size": "14px","padding": "4px","max-width": "250px","top":"20","text-align": "center","border": "2px solid"}} >
- <p><strong>Source : 95113</strong></p>
- <p><strong>Destination:50</strong></p>
- <p><strong>Weight of Package: 95113</strong></p>
- <p><strong>No of letters:50</strong></p>
- <p><strong>Size: 95113</strong></p>
- <p><strong>Pincode:50</strong></p>
- <p><strong>Tracking ID: 95113</strong></p>
-             
+<div class="body1">
+  
+ <p style={{"color":"aliceblue","padding-left":"10px"}}>View Detials of the Letters  </p>
+      <div style={{"padding-top":"20px"}}>    
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div>
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+ <div class="text" style={{"padding-top":"100px", "margin-left":"10px","color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "1250px","text-align": "center","border": "2px solid","margin-bottom":"10px"}} >
+ <div class="row" style={{"padding-left":"30px"}}>
+ <p><strong>Source : 868 S 5th St, San Jose, CA, 95113</strong></p> &nbsp; &nbsp;
+ <p><strong>   Destination: 24 Willie Mays Plz, San Francisco, CA 94107</strong></p> &nbsp; &nbsp;
+ <p><strong>Weight of Package: 0.1lb</strong></p> &nbsp; &nbsp;
+
+ <p><strong>Size: 9 x 12.8 in</strong></p> &nbsp; &nbsp;
+ <p><strong>Pincode:95113</strong></p> &nbsp; &nbsp;
+ <p><strong>Tracking ID: 95113</strong></p> &nbsp; &nbsp;
+ </div>
+ </div> 
+  
+ 
+       
 </div>    
 </div>
+
+
         )
     }
 }

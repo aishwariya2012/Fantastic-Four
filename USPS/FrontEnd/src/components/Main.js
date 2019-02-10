@@ -6,6 +6,8 @@ import View from './SignUp/PostSignUp';
 
 
 import Post from './SignUp/PostSignUp';
+import Details from "./SignUp/Thirdpage";
+
 
 
 
@@ -21,6 +23,7 @@ class Main extends Component {
                 <Route exact path="/" component={Home}/>
               
                 <Route path="/ViewGroups" component={Post}/>
+                <Route path="/ViewDetails" component={Details}/>
                
          
               

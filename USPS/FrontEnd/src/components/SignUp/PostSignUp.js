@@ -1,7 +1,8 @@
 
 import React, {Component} from 'react';
 
-import image from '../SignUp/Profile.png'
+
+import {Link} from 'react-router-dom';
 import './App.css';
 import Header from '../Headers/Header';
  export default class PostSignUp extends Component{
@@ -36,9 +37,9 @@ import Header from '../Headers/Header';
           <div class="row" style={{"margin-top":"25px"}}>
           <div class="col-3">
            <div class="text" style={{"top-margin":"200px", "color":"black","background-color":"rgb(20, 119, 141,0.8)","font-size": "14px","padding": "4px","max-width": "250px","top":"20","text-align": "center","border": "2px solid"}} >
-            <p><strong>Zipcode: 95113</strong></p>
+            <p><strong><Link to="/ViewDetails">Zipcode: 95113</Link></strong></p>
             <p><strong>No of letters:50</strong></p>
-               <button style={{"border": "2px solid"}}>Find USPS driver</button>
+               <button style={{"border": "2px solid"}}><a href="finddriver.html">Find USPS driver</a></button>
                 &nbsp;
                 <button style={{"border": "2px solid"}}>Fleet Driver</button>             
             </div>
